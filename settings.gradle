@@ -1,0 +1,4 @@
+rootProject.name = 'hadoop_hdfs_kafka'
+include 'KafkaConsumer'
+findProject(':KafkaConsumer')?.name = 'hadoop_hdfs_kafka'
+
