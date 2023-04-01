@@ -1,4 +1,4 @@
-Read messages/records/events from Kafka and same them into Hadoop HDFS is a typical use of Kafka messaging system. 
+Read messages/records/events from Kafka and save them into Hadoop HDFS is a typical use of Kafka messaging system. 
 
 There are some example codes on internet about this use case, but they all use Kafka version older than 0.8.0. Since Kafka 0.9.0 a new Kafka consumer is introduced, the new Kafka consumer APIs are different from earlier version. for example:
 
